@@ -2,9 +2,6 @@ let main = document.querySelector('#main')
 let page = {
     '#aboutme': `
     aboutus/
-    aboutus/
-    aboutus/
-    aboutus/
     `,
     '#ex1': `
     ex1/
