@@ -24,7 +24,7 @@ let page = {
     <input type="submit" value="註冊">
     `
 }
-window.onhashchange = function(){
+window.onhashchange = function () {
     let hash = window.location.hash
     main.innerHTML = page[hash]
 }
