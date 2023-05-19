@@ -5,23 +5,14 @@
 
     <svg height="700" width="700">
         <defs>
-            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-            </linearGradient>
-            <filter id="f1" x="0" y="0" width="400%" height="400%">
-                <feOffset result="offOut" in="SourceGraphic" dx="30" dy="30" />
-                <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
-                <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+            <filter id="f1" x="0" y="0">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="15" />
             </filter>
-            <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-                <stop offset="0%" style="stop-color:rgb(0,255,255);stop-opacity:2" />
-                <stop offset="100%" style="stop-color:rgb(0,255,0);stop-opacity:1" />
-            </radialGradient>
-        </defs>
-        <polygon points="100,10 40,198 190,78 10,78 160,198" style="stroke-width:5;fill-rule:nonzero;" fill="url(#grad2)"/>
-        <ellipse cx="300" cy="70" rx="85" ry="55" fill="url(#grad1)" filter="url(#f1)"/>
-        <ellipse cx="300" cy="70" rx="65" ry="35" fill="white" />
+          </defs>
+        <circle cx="100" cy="100" r="80" fill="yellow" filter="url(#f1)" />
+        <circle cx="75" cy="75" r="10" fill="black" />
+        <circle cx="125" cy="75" r="10" fill="black" />
+        <path d="M70 120 Q100 150 130 120" stroke="black" fill="transparent" />
     </svg>
 </body>
 
