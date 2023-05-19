@@ -1,0 +1,131 @@
+body {
+  font-family: Arial;
+
+}
+
+#page {
+  background-image: url('background.jpg');
+  height: 740px;
+}
+
+header {
+  background-color: #edf1f5;
+  padding: 25px;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.line {
+  width: 2px;
+  height: 40px;
+  background-color: black;
+  margin: 10px;
+}
+
+#text li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  justify-content: space-between;
+  color: black;
+  font-size: 25px;
+}
+
+#text li a {
+  margin: 0px 20px 0px 20px;
+}
+
+
+
+
+.page1 {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 40px;
+}
+
+
+
+
+#page3 {
+  height: 740px;
+  background-color: rgb(19, 167, 197);
+}
+
+.page2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.img1 {
+  border-radius: 50%;
+}
+
+.content {
+  float: right;
+  margin-right: 150px;
+  margin-top: 10px;
+}
+
+.img1 {
+  float: left;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-back {
+  float: right;
+  margin-top: 280px;
+  font-size: 100px;
+}
+
+
+#page4{
+  align-content: start;
+  height: 750px;
+  background-image: url('page3.png');
+  background-repeat: no-repeat;
+}
+
+#component1{
+  float: left;
+  margin: 3px 0px 0px 150px;
+  font-size: 40px;
+}
+
+#component2  {
+  float: right;  
+  margin-right: 370px;
+  font-size: 40px;
+}
+
+.btn-top {
+  float: right;
+  margin-top: 40px;
+  font-size: 100px;
+}
